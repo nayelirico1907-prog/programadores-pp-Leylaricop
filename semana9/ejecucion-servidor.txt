@@ -1,0 +1,8 @@
+Pregunta 7: 
+Qué ocurre cuando ejecutas node server.js.
+Qué mensaje aparece en la terminal.
+Qué sucede cuando visitas la ruta /estado.
+
+Respuesta: Cuando ejecutas el comando node server.js, el motor V8 de Node.js compila e interpreta el archivo, instanciando un servidor web en la memoria mediante el módulo nativo http o un framework como Express. El proceso se vincula a un puerto de red específico (operación bind) y ejecuta el método listen(), lo que activa el Event Loop (bucle de eventos) para mantener el proceso en ejecución asíncrona no bloqueante, quedando a la espera de peticiones entrantes. [
+En la terminal se imprime el mensaje de diagnóstico programado en el callback de la función de escucha, que típicamente confirma la inicialización exitosa del proceso junto con la URL local y el puerto activo (por ejemplo, Server running at http://localhost:3000/). La consola suspende la entrada estándar de comandos de usuario (stdin), ya que el proceso de Node.js se mantiene ejecutándose en primer plano (foreground).
+Cuando visitas la ruta /estado, el navegador web realiza una resolución DNS de la dirección local y envía una petición HTTP con el método GET hacia el puerto del servidor. El servidor recibe los paquetes de datos a través del socket TCP, analiza las cabeceras de la solicitud y hace un matching con el handler o ruta correspondiente en el código; finalmente, ejecuta la lógica asociada y retorna un paquete de respuesta HTTP (con un código de estado como 200 OK y un cuerpo en formato texto o JSON) que el navegador renderiza en la pantalla

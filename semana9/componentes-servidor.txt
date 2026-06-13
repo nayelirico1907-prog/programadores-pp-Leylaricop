@@ -1,0 +1,7 @@
+Explica brevemente qué función cumple cada uno
+Sistema operativo
+Actúa como el software base que administra todo el hardware del servidor. Permite la ejecución de programas, controla la memoria y gestiona el almacenamiento físico de forma segura [licensed_media_service:fetch_images]. Node.js
+Es el entorno de ejecución que interpreta y procesa el código JavaScript en el servidor. Traduce las instrucciones escritas por el desarrollador en lenguaje que el sistema operativo puede entender. Aplicación server.js
+Es el archivo principal con la lógica del negocio creada por el programador. Contiene las reglas del servidor, como la gestión de usuarios, la conexión a bases de datos y las respuestas web.Puerto
+Funciona como un canal virtual específico dentro del servidor para dirigir el tráfico de red. Permite que la aplicación reciba y responda solicitudes de los usuarios sin interferir con otros programas.Logs
+Son registros de texto automáticos que guardan el historial de todo lo que ocurre en el servidor. Sirven para auditar accesos, medir el rendimiento y detectar errores o ataques informáticos de forma rápida.
