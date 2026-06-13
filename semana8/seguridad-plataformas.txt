@@ -1,0 +1,30 @@
+Escribe 5 prácticas de seguridad que deberían aplicarse en una plataforma digital comunitari
+  GNU nano 9.0               seguridad-plataformas.txt                Modified
+Escribe 5 prácticas de seguridad que deberían aplicarse en una plataforma digit>
+Respuesta: Moderar contenido automatizado: Usar filtros que bloqueen insultos, enlaces maliciosos y estafas antes de que los miembros los vean.
+Separar roles y permisos: Crear niveles (usuario, moderador, administrador) para que nadie tenga más poder del que realmente necesita.
+Validar identidad al registrarse: Implementar un sistema de verificación (como un código al móvil) para evitar la entrada de bots o cuentas falsas. 
+Establecer un botón de denuncia: Permitir que la propia comunidad reporte contenido sospechoso o acoso con un solo clic.
+Copia de seguridad externa: Respaldar los datos de la comunidad en un servidor seguro y aislado por si la plataforma sufre un ataque o borrado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Help      ^O Write Out ^F Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
+
